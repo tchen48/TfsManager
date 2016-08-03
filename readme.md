@@ -1,5 +1,5 @@
 #The purpose of this project
-Create a  command line app for developers using TFS. The provide some most commonly used functionalities such as listing the tickets that user is currently working on, changing the status of the ticket, showing the parents of the ticket, showing the children of the ticket and so on
+Create a  command line app for developers using TFS. The app provide some most commonly used functionalities such as listing the tickets that user is currently working on, changing the status of the ticket, showing the parents of the ticket, showing the children of the ticket and so on
 
 ##Configuration
 Before using this tool, you need to configure your TFS, and put your credentials and other pre-setting info in the config.js file
@@ -18,5 +18,5 @@ fields: specify the fields that you want to show<br />
 Quick mode<br />
 [-l]: list the tickets in the path you specified in the config js<br />
 [-t $num *]: list the detail of the specified tickets<br />
-Editing mode
+Editing mode<br/>
 [-s $num $num]set the value of the hour of specified ticket number<br />
